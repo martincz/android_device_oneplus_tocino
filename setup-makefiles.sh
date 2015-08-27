@@ -242,6 +242,17 @@ LOCAL_MODULE_PATH := \$(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 include \$(BUILD_PREBUILT)
 
 include \$(CLEAR_VARS)
+LOCAL_MODULE := libmdmdetect
+LOCAL_MODULE_OWNER := $VENDOR
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libmdmdetect.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libmdmdetect.so
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := \$(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
+include \$(BUILD_PREBUILT)
+
+include \$(CLEAR_VARS)
 LOCAL_MODULE := qcnvitems
 LOCAL_MODULE_OWNER := $VENDOR
 LOCAL_SRC_FILES := proprietary/framework/qcnvitems.jar
