@@ -126,7 +126,7 @@ TARGET_LIBINIT_DEFINES_FILE := device/oneplus/tocino/init/init_tocino.c
 TARGET_POWERHAL_VARIANT := qcom
 
 # RIL
-TARGET_RIL_VARIANT := caf
+# TARGET_RIL_VARIANT := caf
 
 # RPC
 TARGET_NO_RPC := true
