@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bfb3d3c7_aba83577",
+        "filename": "mkbootimg.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-11-17T20:04:06Z",
+      "side": 1,
+      "message": "BOARD_KERNEL_TAGS_OFFSET :\u003d 0x01E00000\nBOARD_RAMDISK_OFFSET         :\u003d 0x02000000\nBOARD_MKBOOTIMG_ARGS      :\u003d --ramdisk_offset ${BOARD_RAMDISK_OFFSET} --tags_offset ${BOARD_KERNEL_TAGS_OFFSET}",
+      "revId": "b67629592d0acfa3e57a310f25a4252ec5bb5eb3",
+      "serverId": "83d63960-fecf-4fd1-a7f6-e01518638a62",
+      "unresolved": false
+    }
+  ]
+}
